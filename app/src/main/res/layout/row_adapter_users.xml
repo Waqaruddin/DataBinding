@@ -1,0 +1,22 @@
+<layout>
+    <data>
+        <variable
+            name="userNames"
+            type="com.example.databinding.User" />
+    </data>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:text="@{userNames.name}"
+            android:id="@+id/text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+</layout>
