@@ -15,8 +15,8 @@ class RecyclerBindingActivity : AppCompatActivity() {
     }
 
     private fun init() {
-        var user1 = User("Mark","email", "password")
-        var user2 = User("Shawn", "email", "password")
+        var user1 = User("Mark","marksemail@gmail.com")
+        var user2 = User("Shawn", "shawnsemail@gmail.com")
         mList.add(user1)
         mList.add(user2)
         adapterUser = AdapterUsers(this, mList)
